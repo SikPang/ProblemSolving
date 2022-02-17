@@ -19,7 +19,7 @@ public class Main {
             }
         }
         numberList.add(Long.parseLong(sb.toString()));
-
+        
         int i=0;
         while(true){
             if(!symbolList.contains('+')) break;
@@ -31,22 +31,13 @@ public class Main {
             }
             i++;
         }
-
-        i = 0;
+        
         while (true) {
-            if (symbolList.size() == 0)
-                break;
-            if (symbolList.get(i) == '+') {
-                numberList.set(i, numberList.get(i) + numberList.get(i + 1));
-                numberList.remove(i + 1);
-                symbolList.remove(i);
-            } else {
-                numberList.set(i, numberList.get(i) - numberList.get(i + 1));
-                numberList.remove(i + 1);
-                symbolList.remove(i);
-            }
+            if (symbolList.size() == 0) break;
+            numberList.set(0, numberList.get(0) - numberList.get(1));
+            numberList.remove(1);
+            symbolList.remove(0);
         }
-
         System.out.println(numberList.get(0));
     }
 }
