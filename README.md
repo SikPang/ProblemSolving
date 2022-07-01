@@ -9,7 +9,7 @@
 <br/>
 
 ## 2. Baekjun Online Judge
-<img src="https://user-images.githubusercontent.com/87380790/175815718-50c743f2-41dc-47cc-a550-cb24697d7998.PNG" width="100%">
+<img src="https://user-images.githubusercontent.com/87380790/176836853-30e47639-738f-468d-a14b-2299c56e8384.PNG" width="100%">
 
 ## ~ing
 
