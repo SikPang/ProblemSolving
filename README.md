@@ -5,8 +5,8 @@
 <br/>
 
 ## 1. Baekjun Online Judge
-> Profile : https://solved.ac/profile/kssong91
-<img src="https://user-images.githubusercontent.com/87380790/186141412-c088ff12-13f2-44cd-b4a7-ce15ca568665.PNG" width="100%">
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kssong91)](https://solved.ac/kssong91/)
+
 
 <br/>
 <br/>
