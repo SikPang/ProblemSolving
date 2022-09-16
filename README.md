@@ -1,5 +1,5 @@
 # Algorithm
- > with C#, Java
+ > with C++, C#, Java
 
 <br/>
 <br/>
@@ -12,7 +12,7 @@
 <br/>
 
 ## 2. Programmers
-<img src="https://user-images.githubusercontent.com/87380790/186141419-9aeea2eb-97c8-4c0f-87ea-615f68f44bc2.PNG" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/190660998-cbb2ff48-619f-428a-9b70-9ef48018fa43.PNG" width="80%">
 <img src="https://user-images.githubusercontent.com/87380790/184569232-eac8e3ee-d370-4f8f-a90c-419d5e5feaaa.PNG" width="100%">
 
 <br/>
