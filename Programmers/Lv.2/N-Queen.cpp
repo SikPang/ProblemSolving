@@ -3,15 +3,18 @@
 using namespace std;
 
 vector<pair<int, int>> queen;
-int mapSize;
-int maxDepth = 0;
+int maxDepth;
 int answer = 0;
 
 void NQueen(int depth)
 {
-    if (depth == mapSize) return;
+    if (depth == maxDepth)
+    {
+        ++answer;
+        return;
+    }
 
-    for (int i = 0; i < mapSize; ++i)
+    for (int i = 0; i < maxDepth; ++i)
     {
         if (depth != 0)
         {
@@ -20,7 +23,7 @@ void NQueen(int depth)
             {
                 if (queen[j].second == i
                     || queen[j].first + queen[j].second == depth + i
-                    || queen[j].first - queen[j].second == depth - i) 
+                    || queen[j].first - queen[j].second == depth - i)
                 {
                     isBreaked = true;
                     break;
@@ -28,25 +31,17 @@ void NQueen(int depth)
             }
             if (isBreaked) continue;
         }
-		queen.push_back({ depth, i });
-        if (maxDepth < depth)
-        {
-            maxDepth = depth;
-            answer = 1;
-        }
-        else if (maxDepth == depth)
-            ++answer;
+        queen.push_back({ depth, i });
 
-		NQueen(depth + 1);
+        NQueen(depth + 1);
 
-		queen.erase(queen.begin() + queen.size()-1);
+        queen.erase(queen.begin() + queen.size() - 1);
     }
 }
 
-int solution(int n) 
+int solution(int n)
 {
-    if(n==2 || n==3) return 0;
-    mapSize = n;
+    maxDepth = n;
     NQueen(0);
 
     return answer;
