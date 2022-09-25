@@ -6,7 +6,7 @@ int solution(string s)
 {
     stack<char> stack;
 
-    for(int i=1; i<s.size(); ++i)
+    for(int i=0; i<s.size(); ++i)
     {
         if (!stack.empty() && stack.top() == s[i])
             stack.pop();
