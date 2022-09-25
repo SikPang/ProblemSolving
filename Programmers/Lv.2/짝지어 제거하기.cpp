@@ -6,8 +6,6 @@ int solution(string s)
 {
     stack<char> stack;
 
-    stack.push(s[0]);
-
     for(int i=1; i<s.size(); ++i)
     {
         if (!stack.empty() && stack.top() == s[i])
