@@ -12,7 +12,7 @@
 <br/>
 
 ## 2. Programmers
-<img src="https://user-images.githubusercontent.com/87380790/200099823-d645c57f-43d3-4e30-b8f0-a2783a7335c7.PNG" width="80%">
+<img src="https://user-images.githubusercontent.com/87380790/211737949-ac7cd555-15df-4408-a5a2-9d5048e3006f.PNG" width="80%">
 <img src="https://user-images.githubusercontent.com/87380790/184569232-eac8e3ee-d370-4f8f-a90c-419d5e5feaaa.PNG" width="100%">
 
 <br/>
