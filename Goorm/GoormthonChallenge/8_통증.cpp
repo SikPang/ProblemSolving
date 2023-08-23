@@ -12,9 +12,9 @@ int main()
 
 	while (num > 0)
 	{
-		if (num >- 14)
+		if (num >= 14)
 			num -= 14;
-		else if (num >- 7)
+		else if (num >= 7)
 			num -= 7;
 		else
 			num -= 1;
