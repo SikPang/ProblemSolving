@@ -10,7 +10,7 @@
 <br/>
 
 ## Programmers
-<img src="https://github.com/SikPang/Algorithm/assets/87380790/078d7633-d1b1-4e04-98f6-4acc8e409b79" width="30%"/>
+<img src="https://github.com/SikPang/ProblemSolving/assets/87380790/1890f43f-6670-4cfe-84d6-d4570f51aacb" width="30%"/>
 
 <br/>
 <br/>
