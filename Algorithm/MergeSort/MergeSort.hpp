@@ -3,5 +3,5 @@
 
 namespace merge
 {
-void sort(std::vector<int>& buf);
+	void sort(std::vector<int>& buf);
 }
