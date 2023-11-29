@@ -6,17 +6,17 @@
 #    By: kwsong <kwsong@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/26 20:51:01 by kwsong            #+#    #+#              #
-#    Updated: 2023/11/29 13:00:09 by kwsong           ###   ########.fr        #
+#    Updated: 2023/11/29 13:00:39 by kwsong           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = quickSort
+NAME = heapSort
 
 CC = c++
 CXXFLAGS = -Wall -Wextra -Werror -fsanitize=address
 
 SRCS = main.cpp \
-	QuickSort.cpp
+	HeapSort.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 TESTER = ../sortTester.sh

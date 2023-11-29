@@ -6,7 +6,7 @@
 #    By: kwsong <kwsong@student.42seoul.kr>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/26 20:51:01 by kwsong            #+#    #+#              #
-#    Updated: 2023/11/26 22:58:49 by kwsong           ###   ########.fr        #
+#    Updated: 2023/11/29 12:59:47 by kwsong           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,8 @@ CXXFLAGS = -Wall -Wextra -Werror -fsanitize=address
 SRCS = main.cpp \
 	MergeSort.cpp
 OBJS = $(SRCS:.cpp=.o)
+
+TESTER = ../sortTester.sh
 
 all 	: $(NAME)
 
@@ -39,6 +41,6 @@ re		:
 	$(MAKE) all
 
 test	:
-	@./sortTester.sh ./$(NAME)
+	@$(TESTER) ./$(NAME)
 
 .PHONY	: all clean fclean re
