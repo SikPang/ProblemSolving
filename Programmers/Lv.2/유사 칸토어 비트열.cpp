@@ -6,14 +6,12 @@ using namespace std;
 int solution(int n, long long l, long long r) {
     int answer = 0;
     
-    --l;
-    --r;
-    while (l <= r)
+    while (l-1 <= r-1)
     {
-        long long idx = l;
+        long long idx = l-1;
         bool isZero = false;
         
-        while (idx / 5 > 0)
+        while (idx > 0)
         {
             if (idx / 5 == 2 || idx % 5 == 2)
             {
@@ -22,7 +20,7 @@ int solution(int n, long long l, long long r) {
             }
             idx /= 5;
         }
-        if (!isZero && l % 5 != 2)
+        if (!isZero)
             ++answer;
         ++l;
     }
