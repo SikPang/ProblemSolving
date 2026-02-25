@@ -25,7 +25,7 @@
 
 ## LeetCode
 
-[![LeetCode user SikPang](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solved&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2FSikPang&logo=leetcode&logoColor=yellow)](https://leetcode.com/SikPang/)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Sikpang?theme=nord&font=Alef&ext=heatmap)
 
 <br/>
 <br/>
