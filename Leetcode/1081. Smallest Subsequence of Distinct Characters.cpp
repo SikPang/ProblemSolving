@@ -1,33 +1,34 @@
 class Solution {
 public:
-	string smallestSubsequence(string s) {
-		int counter['z'+1] = {};
-		bool isUsed['z'+1] = {};
-		for (int i=0; i<s.length(); ++i)
-			++counter[s[i]];
+    string smallestSubsequence(string s) {
+        vector<int> lastAppearIdx(26);
+        vector<bool> used(26);
+        string answer;
 
-		stack<char> stack;
-		for (int i=0; i<s.length(); ++i)
-		{
-			--counter[s[i]];
-			if (isUsed[s[i]]) continue;
+        for (int i=0; i<s.size(); ++i){
+            lastAppearIdx[s[i] - 'a'] = i;
+        }
 
-			while (!stack.empty() && stack.top() > s[i] && counter[stack.top()] > 0)
-			{
-				isUsed[stack.top()] = false;
-				stack.pop();
-			}
-			isUsed[s[i]] = true;
-			stack.push(s[i]);
-		}
+        for (int i=0; i<s.size(); ++i){
+            if (used[s[i]-'a']) continue;
 
-		string answer;
-		answer.resize(stack.size());
-		for (int i=answer.size()-1; i>=0; --i)
-		{
-			answer[i] = stack.top();
-			stack.pop();
-		}
-		return answer;
-	}
+            if (answer.empty() 
+                || answer.back() < s[i] 
+                || lastAppearIdx[answer.back() - 'a'] <= i){
+                answer.push_back(s[i]);
+                used[s[i]-'a'] = true;
+                continue;
+            }
+
+            while (!answer.empty() 
+                && answer.back() > s[i] 
+                && lastAppearIdx[answer.back() - 'a'] > i) {
+                used[answer.back()-'a'] = false;
+                answer.pop_back();
+            }
+            used[s[i]-'a'] = true;
+            answer.push_back(s[i]);
+        }
+        return answer;
+    }
 };
