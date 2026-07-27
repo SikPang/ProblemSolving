@@ -10,6 +10,13 @@
 <br/>
 <br/>
 
+## LeetCode
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Sikpang?theme=nord&font=Alef&ext=heatmap)
+
+<br/>
+<br/>
+
 ## Programmers
 <img src="https://github.com/SikPang/ProblemSolving/assets/87380790/d7126455-a1fa-4529-bff3-e105b970ba4f" width="30%"/>
 
@@ -19,13 +26,6 @@
 
 ## Baekjun Online Judge
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kssong91)](https://solved.ac/kssong91/)
-
-<br/>
-<br/>
-
-## LeetCode
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/Sikpang?theme=nord&font=Alef&ext=heatmap)
 
 <br/>
 <br/>
