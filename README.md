@@ -18,8 +18,7 @@
 <br/>
 
 ## Programmers
-<img src="https://github.com/SikPang/ProblemSolving/assets/87380790/d7126455-a1fa-4529-bff3-e105b970ba4f" width="30%"/>
-
+![Programmers Badge](https://api.programmers-badge.jh8459.com/badge/2f5247b6af0b.svg)
 <br/>
 <br/>
 <br/>
