@@ -17,6 +17,3 @@
 
 ## Baekjun Online Judge
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=kssong91)](https://solved.ac/kssong91/)
-
-<br/>
-<br/>
