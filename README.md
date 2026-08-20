@@ -1,10 +1,8 @@
-# ProblemSolving
- > with C++, C#, Java
 
-<br/>
+## Programmers / PCCP
+![Programmers Badge](https://api.programmers-badge.jh8459.com/badge/2f5247b6af0b.svg)
 
-## PCCP
-<img src="https://github.com/SikPang/ProblemSolving/assets/87380790/b6fd041a-b4d7-4f53-b509-3f06d2b4760d" width="60%"/>
+<img src="https://github.com/SikPang/ProblemSolving/assets/87380790/b6fd041a-b4d7-4f53-b509-3f06d2b4760d" width="60%"/> 
 
 <br/>
 <br/>
@@ -14,12 +12,6 @@
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/Sikpang?theme=nord&font=Alef&ext=heatmap)
 
-<br/>
-<br/>
-
-## Programmers
-![Programmers Badge](https://api.programmers-badge.jh8459.com/badge/2f5247b6af0b.svg)
-<br/>
 <br/>
 <br/>
 
