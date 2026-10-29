@@ -25,6 +25,6 @@ public:
             return false;
         }
         if (sVec.size() != 2) return false;
-        return sVec[0] == gVec[1] && sVec[1] == gVec[0];
+        return gVec[1] == sVec[0] && sVec[1] == gVec[0];
     }
 };
